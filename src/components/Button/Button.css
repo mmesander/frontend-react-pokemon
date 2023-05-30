@@ -1,0 +1,23 @@
+.button-nav {
+    width: 100px;
+    padding: 5px;
+    gap: 20px;
+    border: 2px solid black;
+    background-color: #0068B5;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.button-nav:hover {
+    cursor: pointer;
+}
+
+.button-nav + .button-nav {
+    margin-left: 10px;
+}
+
+.button-nav:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
